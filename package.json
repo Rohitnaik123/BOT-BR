@@ -1,11 +1,8 @@
 {
-  "dependencies": {
-    "bedrock-protocol": "^3.44.0"
-  },
   "name": "bed-bot",
   "version": "1.0.0",
+  "description": "",
   "main": "bot.js",
-  "devDependencies": {},
   "scripts": {
     "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +10,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "bedrock-protocol": "^3.44.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
 }
